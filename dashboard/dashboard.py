@@ -9,8 +9,8 @@ st.title('Dashboard Analisis Data Penyewaan Sepeda')
 st.subheader('Menganalisis Pengaruh Suhu dan Hari Libur terhadap Penyewaan Sepeda')
 
 # Mengambil dataset dari folder 'data'
-day_df = pd.read_csv('data/day.csv')
-hour_df = pd.read_csv('data/hour.csv')
+day_df = pd.read_csv('../data/day.csv')
+hour_df = pd.read_csv('../data/hour.csv')
 
 st.write("Beberapa baris pertama dari dataset 'day.csv':")
 st.write(day_df.head())
